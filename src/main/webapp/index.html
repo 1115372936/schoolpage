@@ -1,0 +1,577 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/jquery.countdown.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <!----font-Awesome----->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!----font-Awesome----->
+    <script>
+        $(document).ready(function(){
+            $(".dropdown").hover(
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">东北林业大学软件工程专业</a>
+        </div>
+        <!--/.navbar-header-->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="login.html"><i class="fa fa-user"></i><span>登录</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header nav_2">
+            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+            <ul class="nav navbar-nav nav_1">
+                <li><a href="index.html">首页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">专业介绍<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="introduction.html">专业简介</a></li>
+                        <li><a href="direction.html">方向简介</a></li>
+                    </ul>
+                </li>
+                <li><a href="teachers.html">教师队伍</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">实验室<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="lab.html">923创新实验室</a></li>
+                        <li><a href="lab2.html">925移动开发实验室</a></li>
+                        <li><a href="lab3.html">923实验室</a></li>
+                    </ul>
+                </li>
+                <li><a href="guide.html">就业指南</a></li>
+                <li><a href="news.html">新闻公告</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- banner -->
+<div class="banner">
+    <!-- banner Slider starts Here -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!--//End-slider-script -->
+    <div  id="top" class="callbacks_container">
+        <ul class="rslides" id="slider3">
+            <li>
+                <div class="banner-bg">
+                    <div class="container">
+                        <div class="banner-info">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="banner-bg banner-img2">
+                    <div class="container">
+                        <div class="banner-info">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="banner-bg banner-img">
+                    <div class="container">
+                        <div class="banner-info">
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="grid_1">
+    <div class="container">
+        <div class="col-md-4">
+            <div class="news">
+                <h1>新闻</h1>
+                <div class="section-content">
+                    <article>
+                        <figure class="date"><i class="fa fa-file-o"></i>11-27-2019</figure>
+                        <a href="https://icec.nefu.edu.cn/info/1055/1925.htm">信息学院成功举办“一流课程双万计划”学术报告会</a>
+                    </article>
+                    <article>
+                        <figure class="date"><i class="fa fa-file-o"></i>11-27-2019</figure>
+                        <a href="https://icec.nefu.edu.cn/info/1055/1924.htm">信息学院成功举办2019年青年教师授课大赛</a>
+                    </article>
+                    <article>
+                        <figure class="date"><i class="fa fa-file-o"></i>11-25-2019</figure>
+                        <a href="https://icec.nefu.edu.cn/info/1055/1923.htm">李顺龙副校长深入联系班级讲党课</a>
+                    </article>
+                    <article>
+                        <figure class="date"><i class="fa fa-file-o"></i>11-24-2019</figure>
+                        <a href="https://icec.nefu.edu.cn/info/1055/1921.htm">信息学院组织集中观看《榜样4》</a>
+                    </article>
+                    <article>
+                        <figure class="date"><i class="fa fa-file-o"></i>11-14-2019</figure>
+                        <a href="https://icec.nefu.edu.cn/info/1055/1912.htm">诵读党章找差距，对照党规守初心</a>
+                    </article>
+                </div><!-- /.section-content -->
+                <a href="news.html" class="read-more">更多新闻</a>
+            </div><!-- /.news-small -->
+        </div>
+        <div class="col-md-8 grid_1_right">
+            <h2>会议公告</h2>
+            <div class="but_list">
+                <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                    <ul id="myTab" class="nav nav-tabs nav-tabs1" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">25-11-2019</a></li>
+                        <li role="presentation"><a href="#profile1" role="tab" id="profile-tab1" data-toggle="tab" aria-controls="profile1">25-09-2019</a></li>
+                        <li role="presentation"><a href="#profile2" role="tab" id="profile-tab2" data-toggle="tab" aria-controls="profile2">11-09-2019</a></li>
+                        <li role="presentation"><a href="#profile3" role="tab" id="profile-tab3" data-toggle="tab" aria-controls="profile3">10-06-2019</a></li>
+                        <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">30-05-2019</a></li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>13:40 - 15:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋楼1016</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>战德臣 教授</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">一流课程双万计划：理解与建议</a></h3>
+                                    <p>教育部倡议“建设金课、淘汰水课”，提出了一流课程双万计划。
+                                        如何理解一流课程双万计划？什么是金课，怎样打造金课？结合
+                                        报告者多年从事慕课建设与应用的经验，从课程内容创新、教与
+                                        学方法创新两个方面介绍了金课的建设方法。进一步解析了一流
+                                        课程双万计划的精神和实质，阐述了关于一流课程标准与评价方
+                                        面的认识，给出了迎评一流课程的建议。<a href="https://icec.nefu.edu.cn/info/1055/1925.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>17:00 - 18:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋楼1014</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>车万翔 博士</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">自然语言处理-人工智能皇冠上的明珠</a></h3>
+                                    <p>人类智能可以分为三个阶段：计算、感知和认知智能。对于计算智能，机器已完胜人类。
+                                        近年来，在深度学习和大数据的帮助下，机器正在削弱人类在感知智能方面的领先优势。
+                                        然而，认知智能一直被认为是人类独特的能力。自然语言（或人类语言）是人类感知智能
+                                        中最重要的部分。所谓自然语言处理，就是用计算技术来学习、理解和生成人类的语言，
+                                        是人工智能的最高水平。早期的自然语言处理研究侧重于自动分析语言的结构，并开发机
+                                        器翻译、问答等基础技术。如今，研究人员更关注如何改进和利用这些工具，创建对话系统、
+                                        翻译引擎，挖掘社交媒体以获取有关健康或财务的信息，识别对产品和服务的情感和情绪等
+                                        等。本次报告将介绍自然语言处理这个快速发展的领 域的进展和挑战。<a href="https://icec.nefu.edu.cn/info/1056/1723.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+                        <div class="events_box">
+                            <div class="event_left"><div class="event_left-item">
+                                <div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+                                <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋1025</div>
+                                <div class="icon_2">
+                                    <div class="speaker">
+                                        <i class="fa fa-user"></i>
+                                        <div class="speaker_item">
+                                            <p>张伟男 博士</p>
+                                        </div>
+                                        <div class="clearfix"></div></div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="event_right">
+                                <h3><a href="#">人机对话前沿技术及研究趋势</a></h3>
+                                <p>近年来，人机对话受到了学术界和工业界的广泛重视。在研究上，自然语言理解技术
+                                    逐渐从序列标注向深度学习的方向发展，对话管理经历了由规则到有指导学习再到强
+                                    化学习的发展过程，自然语言生成则从模板生成、句子规划，发展到端到端的深度学
+                                    习模型。在应用上，基于人机对话技术的产品也层出不穷，如苹果公司的Siri、亚马
+                                    逊的Echo音箱、微软的Cortana、Facebook M以及谷歌的Allo等。同时，各大企业纷
+                                    纷研发及收购AI平台，如微软研发Luis.ai，三星、Facebook和谷歌分别收购了viv.ai
+                                    、wit.ai和api.ai，百度自主研发了Duer OS以及收购kitt.ai，以上种种迹象表明了各
+                                    大企业将在今后着力发展人机对话技术。 <a href="https://icec.nefu.edu.cn/info/1056/1723.htm">详情</a></p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="events_box">
+                            <div class="event_left"><div class="event_left-item">
+                                <div class="icon_2"><i class="fa fa-clock-o"></i>18:00 - 20:00</div>
+                                <div class="icon_2"><i class="fa fa-location-arrow"></i>丹青楼201</div>
+                                <div class="icon_2">
+                                    <div class="speaker">
+                                        <i class="fa fa-user"></i>
+                                        <div class="speaker_item">
+                                            <p >邹佳旭</p>
+                                        </div>
+                                        <div class="clearfix"></div></div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="event_right">
+                                <h3><a href="#">“新老生学习经验交流”交流会</a></h3>
+                                <p>为了更好的加深新老生之间的沟通与了解，促进同学之间的知识交流，为同学们提供有益的学习
+                                    指导和帮助，计算机科学与技术专业开展新老生学习经验交流会。 <a href="https://icec.nefu.edu.cn/info/1056/1662.htm">详情</a></p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                        <div role="tabpanel" class="tab-pane fade" id="profile1" aria-labelledby="profile-tab1">
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>09:30 - 10:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>大学生活动中心（颐丰园四楼）</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>胡伟武</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">中国芯与自主CPU发展道路</a></h3>
+                                    <p>为了引导2017级新生树立正确的价值观、学习观、成长观，同时又紧跟IT行业发
+                                        展前沿，本期双新教育报告信息与计算机工程学院邀请了有“龙芯之父”之称的
+                                        龙芯中科技术有限公司总裁、中国科学院计算技术研究所研究员胡伟武博士。
+                                        报告将介绍国产 “龙芯”CPU芯片的发展道路，龙芯科研团队如何打破国外壁垒，
+                                        建设自主可控的软硬件体系，以及龙芯CPU性能的优化、龙芯软件生态建设的历程。
+                                        另外，报告人将与参会人员共同探讨龙芯开发者培养计划。<a href="https://icec.nefu.edu.cn/info/1056/1075.htm">详情</a></p>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>14:00 - 15:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋楼1016</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>王晓龙</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">人工智能在证券投资的研究和应用</a></h3>
+                                    <p>主要介绍AlphaGo以来的人工智能热点，研究分析人工智能在证券投资的复杂性和难点；报告将分四部分阐述智能模拟、智能分
+                                        析、智能私教以及智能投资机器人的理念、方法和应用示例。欢迎计算机、金融等专业师生和证券投资
+                                        爱好者参加。 <a href="https://icec.nefu.edu.cn/info/1056/1464.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="profile2" aria-labelledby="profile-tab2">
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>09:30 - 12:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋楼1014</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>李海宽</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">大数据时代的软件开发模式与技术</a></h3>
+                                    <p>大数据时代的到来，使传统的软件工程面临新的机遇与挑战。众所周知
+                                        ，传统的软件工程一般以正向工程开始，然后进行软件维护，逆向工程与
+                                        重建工程等，而大数据时代的软件工程则以逆向工程与数据挖掘开始。由
+                                        于软件资源的大量积累以及大规模软件重用技术的发展与应用，软件数据挖
+                                        掘与软件集约化生产会变得越来越重要。报告将讨论在大数据时代软件工程的
+                                        变化、特征及其发展趋势。除新的概念外，还将重点介绍一些具体的实现方法
+                                        ，技术已及工业实践经验。我们正处于一个软件工业大变革的前夜。随着软件资
+                                        源的大量积累与有效利用，软件生产的集约化与自动化程度都将迅速提高，软
+                                        件生产质量与效率的大幅度改进将成为可能。这里所介绍的部分理论与技术是
+                                        由荷兰皇家电信部分出资 并由本人与荷兰计算机科学家（代尔夫特理工大学）
+                                        M. LOOIJEN和J.VAN KATWIJK教授先后联手研究的成果。<a href="https://icec.nefu.edu.cn/info/1056/1081.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>14:00 - 15:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>野生动物资源学院331学术报告厅</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>战德臣 教授</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">计算思维与计算机类专业</a></h3>
+                                    <p>一、以示例的方式，讲述计算思维的作用，学习计算思维的方法。
+                                        <br>
+                                        二、介绍计算机类专业的知识范畴以及学科的知识脉络。
+                                        <br>
+                                        三、介绍CC2005/CS2013对计算机类专业的划分，以及专业知识与能力的构建思路。 <a href="https://icec.nefu.edu.cn/info/1056/1471.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="profile3" aria-labelledby="profile-tab3">
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>14:00 - 16:00</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>成栋楼1016</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>邱兆文 博士</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">拓盟医疗影像处理系统的研究与应用</a></h3>
+                                    <p>拓盟医疗影像处理系统对三维断层扫描数据进行滤波、分割、三维重建
+                                        处理后形成可直接3D打印的stl格式文件。在医学上主要用于病情诊断、
+                                        手术方案规划、手术风险评估等。介绍拓盟医疗影像处理系统
+                                        在医疗、木材内部缺陷检测、动物体内肿瘤精准测量、矿石内部成份分
+                                        析等领域的研究与应用。<a href="https://icec.nefu.edu.cn/info/1056/1084.htm">详情</a></p>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="events_box">
+                                <div class="event_left"><div class="event_left-item">
+                                    <div class="icon_2"><i class="fa fa-clock-o"></i>14:00 - 15:30</div>
+                                    <div class="icon_2"><i class="fa fa-location-arrow"></i>信息学院216学术报告厅</div>
+                                    <div class="icon_2">
+                                        <div class="speaker">
+                                            <i class="fa fa-user"></i>
+                                            <div class="speaker_item">
+                                                <p>林漳希</p>
+                                            </div>
+                                            <div class="clearfix"></div></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="event_right">
+                                    <h3><a href="#">大数据挖掘原理及应用</a></h3>
+                                    <p>1、大数据挖掘的问题与挑战
+                                        <br>
+                                        2、Map/Reduce的算法实现
+                                        <br>
+                                        3、大数据聚类分析
+                                        <br>
+                                        4、大数据分析应用案例 <a href="https://icec.nefu.edu.cn/info/1056/1478.htm">详情</a></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="bottom_content">
+    <h3>教师队伍</h3>
+    <div class="grid_2">
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t15.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1887.htm">谷志新</a></h4>
+                <p>谷志新，博士，副教授，硕士生导师。主要研究方向：信息技术应
+                    用。发表科技论文20余篇，其中SCI、EI收录4篇，专著1部，主编教材2部。获得专利3项。</p>
+                <a href="https://icec.nefu.edu.cn/info/1024/1887.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t10.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1599.htm">罗嗣卿</a></h4>
+                <p>罗嗣卿，硕士，副教授，硕士生导师。主要研究方向：信息系统析与设计、软件服务与应用。
+                    省教改项目15项，发表论文20余篇，教材3部。</p>
+                <a href="https://icec.nefu.edu.cn/info/1024/1599.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t12.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1600.htm">李莉</a></h4>
+                <p>李莉，博士，副教授，软件工程专业主任，专业教工党支部书
+                    记，硕士生导师。主要研究方向：先进软件工程技术、群智能优
+                    化。拥有专利权3项。</p>
+
+                <a href="https://icec.nefu.edu.cn/info/1024/1600.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="grid_3">
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t11.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1601.htm">刘丹</a></h4>
+                <p>刘丹，副教授，工学博士，硕士生导师，软件工程专业副主任。主
+                    要研究方向：无线传感器网络相关技术、数据仓库，数据挖掘。发表论文10余篇。</p>
+                <a href="https://icec.nefu.edu.cn/info/1024/1601.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t14.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1602.htm">张锡英</a></h4>
+                <p>张锡英， 副教授，硕士，硕士生导师。主要研究方向：现代信息
+                    技术及网络应用，数据库技术、图像检索。发表论文 9 篇，出版教材 2 部。</p>
+                <a href="https://icec.nefu.edu.cn/info/1024/1602.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t13.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+                <h4><a href="https://icec.nefu.edu.cn/info/1024/1604.htm">赵玉茗</a></h4>
+                <p>赵玉茗，博士，副教授，硕士生导师，专业副主任。主要研究方向：人工智能、数据挖掘、生物信息学。获得专
+                    利3项。发表学术论文20余篇。</p>
+                <a href="https://icec.nefu.edu.cn/info/1024/1604.htm">
+                    <span><i class="fa fa-chain chain_1"></i>详情</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="clearfix"> </div>
+        <div class="copy">
+            <p>东北林业大学 信息与计算机工程 软件工程专业</p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
